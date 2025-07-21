@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int a = obj.nextInt();
+        int b = obj.nextInt();
+        float c = obj.nextFloat();
+        float sal=b*c;
+        System.out.printf("employee id is "+a+" "+"-"+" "+"salary"+" "+"is"+" "+"%.2f",sal);
+    }
+}
